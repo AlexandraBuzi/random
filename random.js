@@ -5,6 +5,7 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
+   makeImage("https://sillyfangirl00.dreamwidth.org/file/78166.jpg", 25, 50, 25, 100, 1)
     
 }
 
@@ -13,7 +14,8 @@ function createFirstScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-    
+  makeImage("http://www.savethecat.com/wp-content/uploads/2016/08/logo.jpg", 50,100,100,200,1)  
+  makeText("WHY HAS THIS CONSUMED MYY LIFE",20,100,15 "'Satisfy', cursive",1)
 }
 
 
@@ -21,6 +23,7 @@ function createSecondScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
+    
     
 }
 
@@ -32,14 +35,25 @@ function createThirdScene() {
 // This function is called whenever you press the "Go!" button.
 function createRandomScene() {
     // Generate a random number between 0 and 1, and store it in a variable.
-    
+    var hamilton = Math.random()
     // If the number is less than 0.33, call the function to create your first scene.
+    if(hamilton < 0.33){
+    createFirstScene()
     
-    
+    }
     
     // Else, if the number is less than 0.67, call the function to create your second scene.
+    else if(hamilton <0.67){
     
+    createSecondScene()
     
+    }
+    
+    else {
+    
+    createThirdScene()
+    
+    }
     
     // Else, call the function to create your third scene.
     

@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
 #button-container {
     text-align: center;
 }
 
 h1 {
     text-align: center;
+}
+body {
+    font-family:  'Barrio', cursive;
+    background: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTTklEAFYSX-78WqDynuvJM-2j-9Wxvhr1WVAiK1xTy4siHBUhhVQ")
 }
