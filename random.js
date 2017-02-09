@@ -5,8 +5,9 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
-   makeImage("https://sillyfangirl00.dreamwidth.org/file/78166.jpg", 25, 50, 25, 100, 1)
-    
+     makeImage("https://i.ytimg.com/vi/ujUNv441AHY/maxresdefault.jpg",0,0,200,100,1)
+     makeImage("http://pm1.narvii.com/6264/a8d4f04a2879cc37c7c3e4422291770bee29930b_hq.jpg",5,10,100,50,1)
+     
 }
 
 
@@ -14,8 +15,9 @@ function createFirstScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-  makeImage("http://www.savethecat.com/wp-content/uploads/2016/08/logo.jpg", 50,100,100,200,1)  
-  makeText("WHY HAS THIS CONSUMED MYY LIFE",20,100,15 "'Satisfy', cursive",1)
+     makeImage("http://cdn0.dailydot.com/cache/8f/11/8f115d5b33dbc8d60ebba46cb97adda9.jpg",0,0,200,100,1)
+     makeImage("https://pbs.twimg.com/profile_images/789546737199308800/-AZXRZKj.jpg", 10,10,50,50,1)
+
 }
 
 
@@ -23,6 +25,8 @@ function createSecondScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
+     makeImage("http://linkbeef.com/wp-content/uploads/nicolas-cage-as-everyone1.jpg",0,0,200,100,1)
+    makeImage("http://cdn02.cdn.justjared.com/wp-content/uploads/2007/12/cage-whiz/nicolas-cage-math-whiz-03.jpg", 10,10,50,50,1)
     
     
 }
